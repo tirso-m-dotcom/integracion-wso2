@@ -5,7 +5,7 @@
             <log description="Log Request Payload" level="full"/>
             <switch description="Route based  on the Operation" source="//ArithmaticOperation/Operation">
                 <case regex="Add">
-                    <payloadFactory description="Construct payload for addition operation" media-type="xml">
+                    <payloadFactory description="Construct  payload for addition operation" media-type="xml">
                         <format>
                             <tem:AddInteger xmlns:tem="http://tempuri.org">
                                 <tem:Arg1>$1</tem:Arg1>
